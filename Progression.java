@@ -1,5 +1,5 @@
 public class Progression {
-
+//true false
     public static void main(String[] args) {
         System.out.println(isProgressive(new int[] {5, 8, 11, 14, 17}));
         System.out.println(isProgressive(new int[] {4, 8, 10, 12, }));
