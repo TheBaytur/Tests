@@ -1,6 +1,6 @@
 public class Fibonacci {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         Fibonacci(10);
 
     }
@@ -13,8 +13,8 @@ public class Fibonacci {
             int item10ld = item1;
             item1 = item0 + item1;
             item0 = item10ld;
-
             }
         }
-    
 }
+
+//Shorter method starts with 2
