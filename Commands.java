@@ -19,22 +19,22 @@ public class Commands {
         }
         RESULTS[0] = commands;
 
-        String input;
-        boolean found;
-        while (!(input = scanner.nextLine()).equals(COMMANDS[2])) {
-            found = false;
-            for (int i = 0; i < COMMANDS.length; i++){
-                if (COMMANDS[i].equals(input)){
-                    print(RESULTS[i]);
-                    found = true;
-                    break;
-                }
-            }
-            if (!found){
-                System.out.println("no command found for that input. Try typing " + COMMANDS[0]);
-            }
-        }
-    }
+    //     String input;
+    //     boolean found;
+    //     while (!(input = scanner.nextLine()).equals(COMMANDS[2])) {
+    //         found = false;
+    //         for (int i = 0; i < COMMANDS.length; i++){
+    //             if (COMMANDS[i].equals(input)){
+    //                 print(RESULTS[i]);
+    //                 found = true;
+    //                 break;
+    //             }
+    //         }
+    //         if (!found){
+    //             System.out.println("no command found for that input. Try typing " + COMMANDS[0]);
+    //         }
+    //     }
+    // }
 
     private static void print (Object object){
         System.out.println(object);
