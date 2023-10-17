@@ -62,7 +62,7 @@ public class Commands {
     //     }
     // }
 
-    private static void print (Object object){
-        System.out.println(object);
-    }
-}
+//     private static void print (Object object){
+//         System.out.println(object);
+//     }
+// }
