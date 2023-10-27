@@ -1,5 +1,6 @@
 //import static java.lang.VersionProps.print;
 
+// Проверка на пустоту и после чего циклом проходим по массиву.
 public class NegativeCount {
     public static void main(String[] args) {
         System.out.println(negativeCount(new int[]{-1, 3, 2, -2}));
