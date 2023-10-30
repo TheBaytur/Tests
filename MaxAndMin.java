@@ -27,7 +27,7 @@ public class MaxAndMin {
             difference = max - min;
         }
         return difference;
-
     }
 
 }
+// Sorting an array in a loop to find min and max int.
