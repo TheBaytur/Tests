@@ -2,7 +2,7 @@ package com.company;
 
 import static java.lang.StrictMath.pow;
 
-public class Armstrong {
+public class Armstrong {  // Armstrong number
     public static void main(String[] args){
         int n  , po = 0, count = 0;
         double arm;
