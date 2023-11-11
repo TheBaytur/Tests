@@ -4,18 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Summa {
+public class Summa {  // Sum of indexes
 
     private static int n;
 
-
     public static void main(String[] args) {
-
 
             Scanner scan = new Scanner(System.in);
             System.out.format("Enter number");
             n = scan.nextInt();
-
 
                 String one = "1";
                 long result = 0;
@@ -23,7 +20,6 @@ public class Summa {
                 if (n<10){
                     for (int i = 1; i < n; i++) {
                         numbers.add(one.repeat(i));
-
                     }
 
                     System.out.println("Result");
@@ -39,9 +35,7 @@ public class Summa {
                     System.out.printf("\nSum: %d%n", result);
                 } else {
                     System.out.println("Please enter number <10");
-
                 }
-
             }
         }
 
