@@ -9,3 +9,5 @@ public class Decrease {
         System.out.println(result);
     }
 }
+
+//Simple decrease counter
