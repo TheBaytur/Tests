@@ -1,4 +1,4 @@
-public class BubbleSort {
+public class BubbleSort { // Bubble sort algorithm
 
     public static void BubbleSort(int[] sortArr){
         for (int i = 0; i < sortArr.length - 1; i++) {
