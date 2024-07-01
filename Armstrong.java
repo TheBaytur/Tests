@@ -22,3 +22,5 @@ public class Armstrong {  // Armstrong number
         }
     }
 }
+
+// 1.07.24 Resume
